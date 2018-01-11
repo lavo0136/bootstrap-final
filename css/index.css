@@ -1,0 +1,79 @@
+/* 
+COLORS
+
+#E8CFC7 -- light dusty rose
+#E8CEAB -- beige
+#FFF3C1 -- sand
+#E3E8AF -- sandy green
+#60695E -- greenish grey
+
+*/
+
+body {
+    font-family: 'Roboto', 'Oswald', 'Lato', sans-serif;
+    background-color: #FFF3C1;
+    color: #60695E;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Merriweather', 'Noto Serif', 'Cambo', serif;
+}
+
+nav {
+    padding: 0.5%;
+}
+
+li {
+    margin-right: 2%;
+}
+
+li a{
+    font-size: 125%;
+    color: #fff;
+}
+
+li a:hover {
+    color: #60695E;
+}
+
+footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+}
+
+.jumbotron {
+    background-color: #E8CFC7;
+}
+
+.btn {
+    background-color: #E3E8AF;
+    border-color: #60695E;
+    color: #60695E;
+}
+
+.btn:hover {
+    background-color: #E8CFC7;
+}
+
+.navbar {
+    color: #E8CFC7;
+    border-bottom: 5px solid #60695E;
+}
+
+.navbar-link {
+    color: #574AE8;
+}
+
+.card {
+    background-color: #E8CEAB;
+}
+
+.card-header, .card-footer {
+    background-color: #E8CFC7;
+}
+
+.card-body {
+    background-color: #E3E8AF;
+}
